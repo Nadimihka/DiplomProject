@@ -33,6 +33,8 @@ public class Main {
                     Gson gson = new Gson();
                     String json = gson.toJson(engine.search(word));
                     out.println(json);
+                    System.out.println("Ответ сервера на слово '" + word + "' отправлен клиенту");
+                    System.out.println("Сервер ожидает следующий запрос от клиента");
                 }
             }
         } catch (

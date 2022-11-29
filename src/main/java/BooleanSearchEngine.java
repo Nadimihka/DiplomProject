@@ -54,7 +54,7 @@ public class BooleanSearchEngine implements SearchEngine {
             Collections.sort(list);
             return list;
         } else {
-            System.out.println("Слово '" + word + "' в документах остутствует");
+            //  System.out.println("Слово '" + word + "' в документах остутствует");
             return Collections.emptyList();
         }
     }
